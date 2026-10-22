@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: #efeae2;
+  background-image: radial-gradient(900px 420px at 0% -10%, #e4eee8 0%, transparent 60%);
+  color: #211e1a;
+  font-family: Manrope, "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #d5e4dc;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
